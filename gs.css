@@ -2,10 +2,31 @@
 font-size: 27px;
 color: black;
 }
+.name{
+  font-size: 18px;
+  color: rgb(56, 47, 47);
+}
+.direction:hover,p.direction{
+  font-size: 15px;
+  background-color:yellowgreen;
+}
+.direction:hover {
+  background-color: black;
+  color: bisque;
+}
+h6{
+  color: rgb(44, 34, 34);
+}
 h6.Minikin {
-    font-family: Garamond;
-    color: blueviolet;
- 
+  font-family: Garamond;
+  color: blueviolet;
+} h6.Manikin{
+font-family: Garamond;
+color: brown;
+}
+img{
+  width: 100px;
+  height: 100px;
 }
 table {
   border-collapse: collapse;
@@ -32,30 +53,11 @@ tr:nth-child(even) {
     margin: 2rem 0 0rem 2rem; 
 }
 
-h6.Manikin{
-    font-family: Garamond;
-    color: brown;
-  }
-
-
-.direction:hover,p.direction{
-    font-size: 15px;
-    background-color: rgb(120, 117, 117);
+.fab,.fa-facebook-f{
+  color: black;
+  font-size: 200px;
 
 }
-
-.name{
-    font-size: 18px;
-    color: rgb(56, 47, 47);
-}
-
-h6{
-    color: rgb(44, 34, 34);
-}
-.direction:hover {
-    background-color: black;
-    color: bisque;
-  }
   table, th, td {
     font-size: 1rem;
     border: 1px solid rgb(120, 117, 117);
@@ -66,4 +68,32 @@ h6{
   }
   p{
     font-size: 20px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(185, 101, 101);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover:not(.active) {
+    background-color: grey;
+  }
+  
+  .active {
+    background-color: #94dfc4;
   }
