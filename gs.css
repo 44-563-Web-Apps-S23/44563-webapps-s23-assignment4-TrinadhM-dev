@@ -1,0 +1,52 @@
+.speech{
+font-size: 27px;
+color: black;
+}
+h6.Minikin {
+    font-family: Garamond;
+    color: blueviolet;
+   
+}
+.boxSha:hover{
+  color: transparent;
+  text-shadow: 2px 2px 4px black;
+  font-size: 18px;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+  border: 2px;
+}
+
+h6.Manikin{
+    font-family: Garamond;
+    color: brown;
+  }
+
+
+.direction:hover,p.direction{
+    font-size: 15px;
+    background-color: rgb(120, 117, 117);
+
+}
+
+.name{
+    font-size: 18px;
+    color: rgb(56, 47, 47);
+}
+
+h6{
+    color: rgb(44, 34, 34);
+}
+.direction:hover {
+    background-color: black;
+    color: bisque;
+  }
+  table, th, td {
+    font-size: 1rem;
+    border: 1px solid rgb(120, 117, 117);
+  }
+  table.bg-color{
+    background-color: rgb(190, 182, 243);
+    align-items: center;
+  }
+  p{
+    font-size: 20px;
+  }
